@@ -1,0 +1,273 @@
+@charset "UTF-8";
+/*
+Theme Name: hanasan-catering
+Description:
+Theme URI:
+Author:
+Author URI:
+Version:
+License:
+License URI:
+Tags:
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+th {
+  font-weight: normal;
+}
+
+a:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+video {
+  vertical-align: bottom;
+  width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/*
+============================
+GENERAL CONTENTS
+============================
+*/
+*:not(br) {
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+*:not(br)::before, *:not(br)::after {
+  box-sizing: inherit;
+  line-height: inherit;
+}
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+  /*font-family: "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, sans-serif;*/
+  font-size: 14px;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+  position: relative;
+  text-align: left;
+}
+/* IE*/
+
+@media screen and (min-width: 0\0) and (min-resolution: +72dpi) {
+    body {
+        font-family: "メイリオ",Meiryo,"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
+    }
+}
+.min{
+	font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
+}
+
+p {
+  line-height: 1.6;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea,
+button,
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+
+.clear{
+	clear:both;
+	margin:0;
+	padding:0;
+}
+.cf:after,
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    min-height: 1px;
+}
+
+* html .clearfix {
+    height: 1px; /*¥*/
+    /*/ height: auto; overflow: hidden; /**/
+}
